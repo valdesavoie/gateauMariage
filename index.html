@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Miam Val</title>
+<meta charset="utf-8">
+<meta name="description" content=""/>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick-1.8.0/slick/slick-theme.css"/>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Tangerine" rel="stylesheet">
+</head>
+  <body>
+      <div class="conteneur">
+          <header>
+              <div class="logo">
+                <img src="images/logo.png" title="logo" alt="logo"/>
+              </div>
+          <div class="navigation">
+              <ul>
+                <li><a href="#">ACCUEIL</a></li>
+                <li class="orange"><a href="#">PRODUITS</a>
+                  <ul class="deroulant vertical">
+                        <li><a href="#">Gâteaux de nos régions</a></li>
+                        <li><a href="#">Gâteaux d'anniversaire</a></li>
+                        <li><a href="#">Gâteaux d'anniversaire</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">CONTACT</a></li>
+                <li class="rectangle"></li>
+                <li><a href="#"><img src="images/loupe.png"/></a></li>
+                <li><a href="#"><img src="images/panier.png"/></a></li>
+              </ul>
+          </div>
+              <img src="images/mariage.jpg" title="bannière mariage" alt="bannière mariage"/>
+              <h1>Gâteaux de mariage</h1>
+        </header>
+
+        <section>
+          <img src="images/gateauFiche.jpg" title="gâteau mariage" alt="gâteau mariage"/>
+          <div class="ficheProduit">
+                <h2>Gâteau rose et blanc</h2>
+                <p class="reference">Réf.miam12</p>
+                <p>Accedat huc suavitas quaedam oportet
+                  sermonum atque<br/> morum, haudquaquam mediocre
+                  condimentum amicitiae.<br/> Tristitia autem et in omni
+                  re severitas habet illa quidem gravitatem, sed amici.</p>
+                <p class="gourmand">Avis des gourmands</p>
+                <a href="#"><img class="bulle" src="images/bulle.png" title="bulle" alt="bulle"/></a>
+                <p class="partage">Je partage</p>
+                <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="pictos" src="images/instagram.png" title="logo instagram" alt="logo instagram"/></a>
+              <a href="https://www.facebook.com/?hl=fr" target="_blank"><img class="pictos" src="images/facebook.png" title="facebook" alt="facebook"/></a>
+                <a href="https://www.twitter.com/?hl=fr" target="_blank"><img class="pictos" src="images/twitter.png" title="logo twitter" alt="logo twitter"/></a>
+                <p class="prix">Prix : 95€</p>
+                <p class="quantite">Quantité : </p>
+                <a href="#"><img src="images/panier.png" title="panier" alt="panier"/></a>
+          </div>
+        </section>
+          <div class="autoplay">
+            <div><img src="images/slide1.jpg" title="gâteau" alt="gâteau"/></div>
+            <div><img src="images/slide2.jpg" title="gâteau" alt="gâteau"/></div>
+            <div><img src="images/slide3.jpg" title="gâteau" alt="gâteau"/></div>
+            <div><img src="images/slide4.jpg" title="gâteau" alt="gâteau"/></div>
+            <div><img src="images/slide5.jpg" title="gâteau" alt="gâteau"/></div>
+            <div><img src="images/slide6.jpg" title="gâteau" alt="gâteau"/></div>
+          </div>
+
+          <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+          <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+          <script type="text/javascript" src="slick-1.8.0/slick/slick.min.js"></script>
+          <script type="text/javascript">
+            $('.autoplay').slick({
+              slidesToShow: 3,
+              slidesToScroll: 1,
+              autoplay: true,
+              autoplaySpeed: 2000,});
+          </script>
+
+        <footer>
+              <div class="paiement">
+                  <h3>Modes de paiement</h3>
+                  <a href="https://www.paypal.com/fr/home" target="_blank"><img class="paypal" src="images/paypal.png" title="paypal" alt="paypal"/></a>
+                  <a href="https://www.bforbank.com" target="_blank"><img src="images/carte.png" title="carte" alt="carte"/></a>
+              </div>
+              <div class="paiement border expedition">
+                  <h3>Livraison et frais d'expédition</h3>
+                  <p>- Livraison en 24h par Chronofresh : 5.90€<br/><br/>
+                     - Livraison en 48h par UPS Standard : 8.90€ </p>
+              </div>
+              <div class="paiement reseaux">
+                  <h3>Suivez-nous !</h3>
+                  <a href="https://www.instagram.com/?hl=fr" target="_blank"><img class="instagram" src="images/instagram.png" title="instagram" alt="instagram"/></a>
+                  <a href="https://www.twitter.com/?hl=fr" target="_blank"><img src="images/twitter.png" title="twitter" alt="twitter"/></a>
+                  <a href="https://www.facebook.com/?hl=fr" target="_blank"><img src="images/facebook.png" title="facebook" alt="facebook"/></a>
+              </div>
+              <div class="paiement border newsletter">
+                  <h3>Abonnez-vous à notre newsletter</h3>
+                  <p class="abonnement">Je m'abonne</p>
+              </div>
+          </footer>
+      </div>
+</body>
+</html>

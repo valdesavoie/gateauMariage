@@ -1,0 +1,103 @@
+html, body {margin:0; padding:0;}
+
+.conteneur {width:1140px;
+            height: 1500px;
+            margin:0 auto;}
+
+header {margin-bottom:50px;}
+
+.logo{float:left;}
+
+.navigation{width:900px;
+           float:left;
+           margin-top:35px;}
+
+ul{list-style-type: none;
+   margin:0;
+   padding:0;}
+
+li{float:left;
+    margin-right:20px;
+    transition:3s;}
+
+a{text-decoration: none;}
+.navigation ul .orange a:hover{background:#e7ac88;}
+a:link{color:black;}
+
+.deroulant{display:none;}
+
+.navigation ul li:hover .deroulant {display:block;}
+
+.vertical li  {float:none;
+              background:#e7ac88;
+              border:1px solid grey;
+              width:100px;
+              height:40px;}
+
+.vertical li:hover{background:#f39335;}
+
+.rectangle{margin-left:230px;
+          width:200px;
+          height:32px;
+          border: 1px solid black;
+          border-radius:10px;}
+
+h1{position:absolute;
+  top:297px;
+  left:545px;
+  font-family: 'Tangerine', cursive, Arial;
+  font-size:65px;
+  font-weight: none;}
+
+h2, h3{margin:0;}
+
+footer{padding-top:100px;}
+
+.ficheProduit{width:668px;
+              float:right;}
+
+.reference{font-size:12px;}
+
+.gourmand{font-weight:bold;
+          float:left;}
+
+.bulle{float:left;
+        margin-left:4px;}
+
+.partage{float:left;
+        margin-left:60px;
+        font-weight:bold;}
+
+.pictos{margin:0 6px;}
+
+.quantite{float: left;
+          margin-right:100px;}
+
+.autoplay{width:425px;}
+
+.paiement{width:220px;
+          height:212px;
+          font-size:20px;
+          border-right:2px solid black;
+          float:left;}
+
+.expedition{padding-left:30px;}
+
+.border{border-right:none;}
+
+.reseaux{margin-left:190px;}
+
+.paypal {margin-top:42px;}
+.instagram{margin-top:42px;}
+
+.abonnement{border:none;
+            background:#f39335;
+            border-radius:40px;
+            width:130px;
+            height:50px;
+            margin:0 auto;
+            text-align:center;
+            line-height:50px;
+            margin-top:20px;}
+
+.newsletter{margin-left:30px;}
